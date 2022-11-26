@@ -1,0 +1,24 @@
+body{
+    margin:auto;
+    }
+    header h1{
+    text-align: center;
+    }
+    nav{
+        padding: 8px;
+        width:100%;
+        background-image: url(/IMG/theme/closeup-dark-blue-fabric-texture-260nw-301400039.webp);
+        position:fixed;
+    
+    }
+    nav ul{
+        list-style-type:none;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color:white;
+    }
