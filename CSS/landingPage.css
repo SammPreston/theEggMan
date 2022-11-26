@@ -1,5 +1,11 @@
-body{
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
 
+
+body{
+margin:auto;
 }
 header h1{
 text-align: center;
@@ -7,6 +13,18 @@ text-align: center;
 nav{
     width:100%;
     background-color:blue;
+
+}
+nav ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+nav a{
+    text-decoration: none;
+    color:white;
 }
 main{
 
