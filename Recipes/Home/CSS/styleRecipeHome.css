@@ -1,47 +1,53 @@
 body{
     margin:auto;
-    }
-    header h1{
-    text-align: center;
-    }
-    nav{
-        padding: 0px;
-        width:100%;
-        background-image: url(/IMG/theme/closeup-dark-blue-fabric-texture-260nw-301400039.webp);
-        position:fixed;
-    
-    }
-    nav ul{
-        list-style-type:none;
-        display:flex;
-        flex-direction:row;
-        justify-content: space-around;
-        
-    }
-    nav a{
-        font-size: 25px;
-        color:white;
-        text-decoration: none;
-    }
-    nav a:hover{
-        text-shadow: 1px 1px 5px #ebebeb;
-    }
-    main{
-        height:1000px;
-    }
-    #sideNav{
-        padding: 20px 10px 0px 0px;
-        width: 20%;
-        height: 100%;
-        background-color: rgb(246, 246, 246);
+}
+nav{
+    padding: 0px;
+    width:100%;
+    background-image: url(/IMG/theme/closeup-dark-blue-fabric-texture-260nw-301400039.webp);
+    position:fixeds;
+}
+nav ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+nav a{
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-shadow: 1px 1px 5px #ebebeb;
+}
 
-    }
-    #sideNav ul{
-        list-style-type: none;
-        border-right:8px double pink;
-    }
-    #sideNav li{
-        padding:5px;
-        border-top:1px solid rgb(126, 126, 213);
-    }
-    #mainContent{}
+header{
+    margin:0px;
+    padding: 0px;
+    text-align:center;
+    width:100%;
+    border:1px solid black;
+    position:relative;
+    top:50px;
+    
+}
+main{
+    height:1000px;
+}
+
+#sideNav{
+    padding: 20px 10px 0px 0px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(246, 246, 246);
+}
+#sideNav ul{
+    list-style-type: none;
+    border-right:8px double pink;
+}
+#sideNav li{
+    padding:5px;
+    border-top:1px solid rgb(126, 126, 213);
+}
+#mainContent{}
